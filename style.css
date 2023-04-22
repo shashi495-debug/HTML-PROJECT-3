@@ -91,7 +91,7 @@ body{
     width: 150px;
     height: 100%;
     background: #00abf0;
-    border: 2px solid #00abf0;
+    border: 2px solid #4ede31;
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
@@ -111,7 +111,7 @@ body{
 
 }
 .btn-box a:nth-child(2):hover{
-    color: #081b29;
+    color: #081429;
 }
 
 .btn-box a:nth-child(2)::before{
@@ -126,7 +126,7 @@ body{
     left:0;
     width: 0;
     height: 100%;
-    background: #081b29;
+    background: #97e116;
     z-index: -1;
     transition: .5s;
 }
@@ -148,7 +148,7 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #c2c8cb;
     border-radius: 50%;
     font-size: 20px;
     color: #00abf0;
