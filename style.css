@@ -38,7 +38,7 @@ body{
     transition: .3s;
 
 }
-.navbar a:hover
+.navbar a:hover,.navbar a.active
 {
     color: #00abf0;
 }
@@ -133,13 +133,14 @@ body{
 .btn-box a:hover::before{
     width: 100%;
 }
-.home-sci{
+.skills{
     position: absolute;
     bottom: 40px;
-    width: 170px;
+    width: 700px;
     background: transparent;
+    align-items: center;
 }
-.home-sci a{
+.skills a{
     position: relative;
     display:inline-flex;
     justify-content: center;
@@ -156,10 +157,10 @@ body{
     overflow: hidden;
 
 }
-.home-sci a:hover{
+.skills a:hover{
     color: #081b29;
 }
-.home-sci a::before{
+.skills a::before{
     content: '';
     position: absolute;
     top: 0;
@@ -170,6 +171,6 @@ body{
     z-index: -1;
 transition: .5s;
 }
-.home-sci a:hover::before{
+.skills a:hover::before{
     width: 100%;
 }
